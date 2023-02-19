@@ -15,16 +15,16 @@
         </a>
         <ul class="submenu ">
             <li class="submenu-item ">
-                <a href="">Data Anggota</a>
+                <a href="{{ route('admin.anggota')}}">Data Anggota</a>
             </li>
             <li class="submenu-item ">
-                <a href="">Data Penerbit</a>
+                <a href="{{ route('admin.penerbit')}}">Data Penerbit</a>
             </li>
             <li class="submenu-item ">
-                <a href="">Administrator</a>
+                <a href="{{ route('admin.administrator')}}">Administrator</a>
             </li>
             <li class="submenu-item ">
-                <a href="">Data Peminjaman</a>
+                <a href="{{ route('admin.peminjaman')}}">Data Peminjaman</a>
             </li>
         </ul>
     </li>
